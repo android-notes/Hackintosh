@@ -1,5 +1,5 @@
 # OpenCore Hackintosh
-
+![](https://github.com/android-notes/Hackintosh/blob/main/image/1.png?raw=true)
 
 MacOS version: 10.15.7 (19H15)
 OpenCore: 0.6.5
@@ -52,3 +52,6 @@ OpenCore: 0.6.5
 ## Note
 Generate your own SystemSerialNumber/MLB/SystemUUID [Config.plist](https://dortania.github.io/OpenCore-Install-Guide/config.plist/comet-lake.html#platforminfo)
 
+![Hardware Acceleration](https://github.com/android-notes/Hackintosh/blob/main/image/2.png?raw=true)
+
+![muitiboot](https://github.com/android-notes/Hackintosh/blob/main/image/3.png?raw=true)
