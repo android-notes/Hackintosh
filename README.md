@@ -54,4 +54,4 @@ Generate your own SystemSerialNumber/MLB/SystemUUID [Config.plist](https://dorta
 
 ![Hardware Acceleration](https://github.com/android-notes/Hackintosh/blob/main/image/2.png?raw=true)
 
-![muitiboot](https://github.com/android-notes/Hackintosh/blob/main/image/3.png?raw=true)
+![muitiboot](https://github.com/android-notes/Hackintosh/blob/main/image/3.jpeg?raw=true)
