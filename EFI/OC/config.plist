@@ -95,8 +95,6 @@
 				<integer>0</integer>
 				<key>TableSignature</key>
 				<data></data>
-				<key>TableLength 1</key>
-				<integer>0</integer>
 			</dict>
 		</array>
 		<key>Quirks</key>
@@ -1000,7 +998,7 @@
 		<true/>
 		<key>Drivers</key>
 		<array>
-			<string>HfsPlusLegacy.efi</string>
+			<string>HfsPlus.efi</string>
 			<string>OpenCanopy.efi</string>
 			<string>OpenRuntime.efi</string>
 		</array>

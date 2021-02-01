@@ -36,6 +36,9 @@ OpenCore: 0.6.5
 * DVMT Pre-Allocated(iGPU Memory): 64MB
 * SATA Mode: AHCI
 
+bios version F5, x.m.p is not necessary
+![bios](https://github.com/android-notes/Hackintosh/blob/main/image/4.png?raw=true)
+
 
 ## Working
 * iGPU Hardware Acceleration
