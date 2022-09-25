@@ -1,18 +1,16 @@
 # OpenCore Hackintosh
-![](https://github.com/android-notes/Hackintosh/blob/main/image/1.png?raw=true)
 
-MacOS version: 10.15.7 (19H15)
-OpenCore: 0.6.5
+MacOS version: 12.4 (21F79)
+OpenCore: 0.8.0
 
-## Hardware
+## 硬件
 * CPU: i9-10850k
-* dGPU: GTX 760
-* iGPU: Intel UHD Graphics 630
-* Mainboard: Gigabyte Z490 Gaming X
-  * Ethernet: Intel I219V11 
-  * Audio: ALC1200(but Hackintool show ALCS1200A), need fake id
-
-* Wifi/BT: fenvi T919
+* 独显: Asus Dual RX6600 8G
+* 核显: Intel UHD Graphics 630
+* 主板: Gigabyte Z490 Gaming X
+  * 有线网: Intel I219V（免驱）
+  * 声卡: ALC1200
+* Wifi/蓝牙: fenvi T919
 * SSD: Gigabyte Gen4 1T
 * Memory: Kingston HyperX 3200 16Gx2
 
@@ -26,35 +24,30 @@ OpenCore: 0.6.5
 * Intel Software Guard Extensions(SGX)
 * Intel Platform Trust
 * CFG Lock 
+* Re-Rize Bar Support
 
 #### Enable:
 * Above 4G decoding
 * Hyper-Threading
 * EHCI/XHCI Hand-off
-* OS type: Windows 8.1/10 UEFI Mode
+* OS type: Windows 10
 * Internal Graphics: Enable(auto casue  Hardware Acceleration failed)
 * DVMT Pre-Allocated(iGPU Memory): 64MB
 * SATA Mode: AHCI
 
-bios version F5, x.m.p is not necessary
-![bios](https://github.com/android-notes/Hackintosh/blob/main/image/4.png?raw=true)
+bios version F21, x.m.p非必须
 
 
 ## Working
 * iGPU Hardware Acceleration
 * Wifi and Bluetooth 
 * Audio 
-* Sleep/Wake
 * Shutdown
 * Restart
+* Sleep
 * Magic Trackpad 1
 * AirDrop
 * AppleID/iCloud/AppleStore
-* Multiboot
 
 ## Note
-Generate your own SystemSerialNumber/MLB/SystemUUID [Config.plist](https://dortania.github.io/OpenCore-Install-Guide/config.plist/comet-lake.html#platforminfo)
-
-![Hardware Acceleration](https://github.com/android-notes/Hackintosh/blob/main/image/2.png?raw=true)
-
-![muitiboot](https://github.com/android-notes/Hackintosh/blob/main/image/3.jpeg?raw=true)
+Generate your own SystemSerialNumber/MLB/SystemUUID 
